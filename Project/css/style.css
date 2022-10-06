@@ -19,11 +19,12 @@ header h1{
     text-align: center;
 }
 
-.proposal-text{
+.main{
     width: 40%;
     margin-left: auto;
     margin-right: auto;
 }
+
 
 h2{
     margin-top: 2rem;
@@ -51,4 +52,26 @@ a{
     text-decoration: none;
     cursor: pointer;
   
-  }
+}
+
+.section-box{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #404040;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.section-box:hover{
+    border: 2px solid #000000;
+    color: #000000;
+}
+
+.home-btn{
+    padding: 20px;
+}
+
+.home{
+    color: #f2f2f2;
+}
