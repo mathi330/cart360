@@ -31,20 +31,16 @@ h2{
     margin-bottom: 1.5rem;
 }
 
-p{
+p, h3{
     font-size: 1.1rem;
     line-height: 1.7rem;
 }
 
 img{
-    width: 700px;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.images{
-    text-align: center;
 }
 
 a{
@@ -74,4 +70,30 @@ a{
 
 .home{
     color: #f2f2f2;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.tiny-images{
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    float: left;
+    width: 20%;
+}
+
+.mirror-images{
+    float: left;
+    width: 50%;
+}
+
+.links{
+    text-shadow: 2px 2px 5px #404040;
+}
+
+.links:hover{
+    color: #000000;
+    text-shadow: 2px 2px 5px #000000;
 }
