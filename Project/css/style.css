@@ -36,6 +36,12 @@ p, h3{
     line-height: 1.7rem;
 }
 
+/* .rotate{
+    transform: rotate(-90deg);
+    /* margin-top: -70; */
+    /* width: 70%; */
+/* }  */
+
 img{
     width: 100%;
     display: block;
@@ -97,3 +103,4 @@ a{
     color: #000000;
     text-shadow: 2px 2px 5px #000000;
 }
+
